@@ -18,6 +18,9 @@ en:
   password_reset: "Password reset"
   alert: "Maximum file size is 5MB. Please choose a smaller file."
   view_my_profile: "view my profile"
+  following: "Following"
+  followers: "Follower"
+  
   shared:
     error_messages:
       form_contains: "The form contains"
@@ -25,11 +28,16 @@ en:
     micropost_form:
       compose_new_micropost: "Compose new micropost..."
       post: "Post"
+    stats:
+     folowing: "following"
+     followers: "followers"
+      
   sessions:
     new:
       log_in: "Log in"
       sign_up_now: "Sign up now!"
       remember_me: "Remember me on this computer"
+
   layouts:
     footer: 
       title: "Ruby on Rails Tutorial"
@@ -100,6 +108,15 @@ en:
       sure: "You sure?"
     index:
       all_user: "All users"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "view my profile"
+    show:
+      micropost: "Micropost"
+
 
   microposts:
     micropost:
@@ -109,3 +126,4 @@ en:
     edit:
       confirmation: "Confirmation"
       update_password: "Update password"
+      

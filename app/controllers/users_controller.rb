@@ -27,7 +27,8 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.page(params[:page]).per Settings.pagination.number_user_per_page
-
+    @follow_user = current_user.active_relationships.build
+    @unfollow_user = current_user.active_relationships.find_by(followed_id: @user.id)
     return if @user
     flash[:danger] = t "user_is_not_exist"
   end
@@ -53,6 +54,18 @@ class UsersController < ApplicationController
       redirect_to root_path
     end
   end
+
+  # def following
+  #   @title =  t "following" 
+  #   @users = @user.followers.page(params[:page]).per Settings.pagination.number_user_per_page
+  #   render "show_follow"
+  # end
+
+  # def followers
+  #   @title =  t "followers" 
+  #   @users = @user.followers.page(params[:page]).per Settings.pagination.number_user_per_page
+  #   render "show_follow"
+  # end
 
   private
 

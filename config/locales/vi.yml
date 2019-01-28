@@ -17,10 +17,16 @@ vi:
   password_reset: "Đặt lại mật khẩu"
   alert: "Kích thước tập tin lớn nhất là 5MB. Xin chọn file nhỏ hơn"
   view_my_profile: "xem hồ sơ của tôi"
+  following: "Theo dõi"
+  followers: "Người theo dõi"
+
   shared:
     micropost_form:
       compose_new_micropost: "Soạn micropost mới..."
       post: "Đăng"
+    stats:
+     folowing: "đang theo dõi"
+     followers: "người theo dõi"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
@@ -88,6 +94,10 @@ vi:
       sure: "Bạn chắc chắn chứ?"
     index:
       all_user: "Tất cả người dùng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
   
   microposts:
     microposts:
@@ -96,3 +106,4 @@ vi:
   password_resets:
     edit:
       confirmation: "Xác nhận"
+      
