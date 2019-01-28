@@ -32,7 +32,6 @@ en:
       k_6: "This is the sample application for the tutorial."
     
     contact:
-      title_b: "contact"
-      caption: "Contact"
-      c_0: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      c_1: "contact page"
+      contact : "contact"
+      title: "Contact"
+      content : "Contact the Ruby on Rails Tutorial about the sample app at the contact page"
