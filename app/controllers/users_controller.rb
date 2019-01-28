@@ -26,6 +26,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.pagination.number_user_per_page
 
     return if @user
     flash[:danger] = t "user_is_not_exist"

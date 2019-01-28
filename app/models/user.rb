@@ -11,6 +11,7 @@ class User < ApplicationRecord
   validates :password, presence: true, allow_nil: true,
             length: {minimum: Settings.user_valid.min_length_password}
   before_save :email_downcase
+  has_many :microposts, dependent: :destroy
   has_secure_password
   
   class << self
@@ -43,20 +44,10 @@ class User < ApplicationRecord
     update remember_digest: nil
   end
 
-  def remember
-    @remember_token = User.new_token
-    update remember_digest: User.digest(@remember_token)
+  def feed
+    microposts.ordered
   end
-
-  def authenticated? remember_token
-    return false if remember_digest.nil?
-    BCrypt::Password.new(remember_digest).is_password?(remember_token)
-  end
-
-  def forget
-    update remember_digest: nil
-  end
-
+  
   private
 
   def email_downcase

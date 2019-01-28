@@ -9,6 +9,18 @@ vi:
   can_not_delete_this_user: "Không thể xóa tài khoản này"
   can_not_update: "Không thể cập nhật"
   can_not_find_user: "Không thể tìm thấy user"
+  please_log_in: "Xin vui lòng đăng nhập."
+  micropost_created: "Đã tạo bài đăng!"
+  micropost_deleted: "Đã xóa bài đăng"
+  picture_size_limit: "Cần ít hơn 5MB"
+  reset_password: "Đặt lại mật khẩu"
+  password_reset: "Đặt lại mật khẩu"
+  alert: "Kích thước tập tin lớn nhất là 5MB. Xin chọn file nhỏ hơn"
+  view_my_profile: "xem hồ sơ của tôi"
+  shared:
+    micropost_form:
+      compose_new_micropost: "Soạn micropost mới..."
+      post: "Đăng"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
@@ -76,3 +88,11 @@ vi:
       sure: "Bạn chắc chắn chứ?"
     index:
       all_user: "Tất cả người dùng"
+  
+  microposts:
+    microposts:
+      delete: "xóa" 
+
+  password_resets:
+    edit:
+      confirmation: "Xác nhận"
