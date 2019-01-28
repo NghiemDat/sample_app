@@ -3,6 +3,12 @@ vi:
   welcome_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu!"
   user_is_not_exist: "Tài khoản không tồn tại"
   invalid_email_password: "Email / mật khẩu không hợp lệ"
+  profile_updated: "Hồ sơ cá nhân đã cập nhật"
+  user_deleted: "Đã xóa người dùng"
+  please_log_in: "Xin vui lòng đăng nhập."
+  can_not_delete_this_user: "Không thể xóa tài khoản này"
+  can_not_update: "Không thể cập nhật"
+  can_not_find_user: "Không thể tìm thấy user"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
@@ -59,4 +65,14 @@ vi:
       title_sign: "Đăng ký "
       content: "Đây sẽ là một trang đăng ký cho người dùng mới."
       confirm: "Xác nhận"
-      create_account: "Tạo tài khoản của tôi"
+      create_account: "Tạo tài khoản"
+      create_my_user: "Tạo tài khoản của tôi"
+    edit:
+      title: "Thiết lập người dùng"
+      update_ur_profile: "Cập nhật hồ sơ của bạn"
+      save_change: "Lưu thay đổi"
+      change: "Thay đổi"
+    _user: 
+      sure: "Bạn chắc chắn chứ?"
+    index:
+      all_user: "Tất cả người dùng"

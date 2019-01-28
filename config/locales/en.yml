@@ -4,6 +4,12 @@ en:
   user_is_not_exist: "User is not exist"
   input_invalid: "Your data input not valid."
   invalid_email_password: "Invalid email/password combination"
+  profile_updated: "Profile updated"
+  user_deleted: "User deleted"
+  can_not_delete_this_user: "Can not delete this user"
+  please_log_in: "Please log in."
+  can_not_update: "Can not update"
+  can_not_find_user: "Can not find user"
   shared:
     error_messages:
       form_contains: "The form contains"
@@ -70,3 +76,13 @@ en:
       content: "This will be a signup page for new users."
       confirm: "Confirmation"
       create_account: "Create my account"
+      create_my_user: "Create my user"
+    edit:
+      title: "Edit user"
+      update_ur_profile: "Update your profile"
+      save_change: "Save change"
+      change: "Change"
+    _user: 
+      sure: "You sure?"
+    index:
+      all_user: "All users"
