@@ -1,5 +1,12 @@
 en:
   page_title: "Ruby on Rails Tutorial Sample App"
+  welcome_sample_app: "Welcome to the Sample App!"
+  user_is_not_exist: "User is not exist"
+  input_invalid: "Your data input not valid."
+  shared:
+    error_messages:
+      form_contains: "The form contains"
+      error: "error"
   layouts:
     footer: 
       title: Ruby on Rails Tutorial
@@ -50,3 +57,5 @@ en:
     new:
       title_sign: "Sign Up"
       content: "This will be a signup page for new users."
+      confirm: "Confirmation"
+      create_account: "Create my account"

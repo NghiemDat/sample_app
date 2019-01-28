@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title><%= yield(:title) %> | <%= t(".page_title") %></title>
+    <title><%= yield(:title) %> | <%= t(".page_title") %></title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application", media: "all",
      "data-turbolinks-track": "reload" %>                                            
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
   <body>
-  <%= render 'layouts/header' %>
+  <%= render "layouts/header" %>
   <div class="container">
+    <% flash.each do |message_type, message| %>
+    <div class="alert alert-<%= message_type %>"><%= message %></div>
+    <% end %>
   <%= yield %>
-  <%= render 'layouts/footer' %>
+  <%= render "layouts/footer" %>
+  <%= debug(params) if Rails.env.development? %>
   <%= t ".cap_language" %>
   <%= link_to "English", locale: "en" %>
   <%= link_to "Vietnamese", locale: "vi" %>
