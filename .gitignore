@@ -32,4 +32,8 @@
 
 #Ignore database.yml and test file 
 /config/database.yml
-/tests
+/test
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
