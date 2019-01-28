@@ -30,5 +30,6 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-#Ignore database.yml file
+#Ignore database.yml and test file 
 /config/database.yml
+/tests
