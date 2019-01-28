@@ -3,22 +3,32 @@ en:
   welcome_sample_app: "Welcome to the Sample App!"
   user_is_not_exist: "User is not exist"
   input_invalid: "Your data input not valid."
+  invalid_email_password: "Invalid email/password combination"
   shared:
     error_messages:
       form_contains: "The form contains"
       error: "error"
+  sessions:
+    new:
+      log_in: "Log in"
+      sign_up_now: "Sign up now!"
   layouts:
     footer: 
-      title: Ruby on Rails Tutorial
-      Michael Hartl: Michael Hartl
-      about: About
-      contact: Contact
-      new: News
+      title: "Ruby on Rails Tutorial"
+      Michael Hartl: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "News"
     header:
-      sample app: Sample app
-      home: Home
-      help: Help
-      login: Login
+      sample app: "Sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
     application:
       title: "Ruby on Rails Tutorial Sample App"
   static_pages:

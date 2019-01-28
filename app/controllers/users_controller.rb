@@ -8,13 +8,14 @@ class UsersController < ApplicationController
 
     return if @user
     flash[:danger] = t "user_is_not_exist"
-    redirect_to root_url 
+    redirect_to root_url
   end
-  
 
   def create
-    @user = User.new user_params 
+    @user = User.new user_params
+    
     if @user.save
+      log_in @user
       flash[:success] = t "welcome_sample_app"
       redirect_to @user
     else
@@ -22,7 +23,7 @@ class UsersController < ApplicationController
       render :new
     end
   end
-  
+
   private
 
   def user_params
