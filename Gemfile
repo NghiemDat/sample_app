@@ -5,6 +5,7 @@ ruby "2.5.3"
 gem "rubocop", "~> 0.54.0", require: false
 
 gem "rails", "~> 5.2.2"
+gem "bootstrap-sass", "3.3.7"
 gem "sqlite3"
 gem "puma", "~> 3.11"
 gem "sass-rails", "~> 5.0"
