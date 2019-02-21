@@ -1,0 +1,33 @@
+vi:
+  page_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  layouts:
+    application:
+      title_page: "Ứng dụng mẫu"
+      cap_language: "Ngôn ngữ"
+  static_pages:
+    help:
+      title: "Trợ giúp"
+      caption: "Trợ giúp"
+      h_0: "Sự trợ giúp Ruby on Rails Tutorial có tại"
+      h_1: "mục trợ giúp"
+      h_2: "Cần sự trợ giúp về dự án mẫu ?, có tại"
+      h_3_a: "Hướng dẫn sách "
+      h_3_b: ""
+
+    home:
+      title_a: "Trang chu"
+      caption: "Trang chủ"
+      h_0: "Đây là trang chủ của"
+      h_1: "Dự án mẫu."
+
+    about:
+      title: "about"
+      caption: "Về chúng tôi"
+      k_0: "Đây"
+      k_1: "là một"
+      k_2: "quyển sách"
+      k_3: "và"
+      k_4: "một chuỗi hình ảnh"
+      k_5: "để dạy phát triển web với"
+      k_6: "Đây là ứng dụng mẫu cho hướng dẫn."
+      
