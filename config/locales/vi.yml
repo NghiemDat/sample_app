@@ -30,4 +30,9 @@ vi:
       k_4: "một chuỗi hình ảnh"
       k_5: "để dạy phát triển web với"
       k_6: "Đây là ứng dụng mẫu cho hướng dẫn."
+    
+    contact:
+      contact : lien he
+      title: Liên hệ
+      content : Liên hệ với Ruby on Rails Tutorial về sample app tại trang liên hệ.
       
