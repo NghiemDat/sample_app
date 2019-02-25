@@ -1,12 +1,22 @@
 en:
   page_title: "Ruby on Rails Tutorial Sample App"
   layouts:
+    footer: 
+      title: Ruby on Rails Tutorial
+      Michael Hartl: Michael Hartl
+      about: About
+      contact: Contact
+      new: News
+    header:
+      sample app: Sample app
+      home: Home
+      help: Help
+      login: Login
     application:
-      title_page: "Sample APP"
-      cap_language: "Language"
+      title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     help:
-      title: "help"
+      title: "Help"
       caption: "Help"
       h_0: "Get help on the Ruby on Rails Tutorial at the"
       h_1: "help section"
@@ -15,13 +25,13 @@ en:
       h_3_b: "book"
       
     home:
-      title_a: "home"
-      caption: "Home"
-      h_0: "This is the home page for the"
-      h_1: "sample application."
+      content1 : "Welcome to the Sample App"
+      content2 : "This is the home page for the"
+      content3 : "sample application."
+      sign_up : Sign up now!
 
     about:
-      title: "about"
+      title: "About"
       caption: "About"
       k_0: "The"
       k_1: "is a"
@@ -35,3 +45,8 @@ en:
       contact : "contact"
       title: "Contact"
       content : "Contact the Ruby on Rails Tutorial about the sample app at the contact page"
+  
+  users:
+    new:
+      title_sign: "Sign Up"
+      content: "This will be a signup page for new users."

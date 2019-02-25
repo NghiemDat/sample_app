@@ -15,13 +15,13 @@ vi:
       h_3_b: ""
 
     home:
-      title_a: "Trang chu"
-      caption: "Trang chủ"
-      h_0: "Đây là trang chủ của"
-      h_1: "Dự án mẫu."
+      content1 : "Chào mừng bạn đến với Ứng dụng mẫu"
+      content2 : "Đây là trang chủ cho"
+      content3 : "ứng dụng mẫu." 
+      sign_up : "Đăng ký ngay!"
 
     about:
-      title: "about"
+      title: "về chúng tôi"
       caption: "Về chúng tôi"
       k_0: "Đây"
       k_1: "là một"
@@ -35,4 +35,8 @@ vi:
       contact : lien he
       title: Liên hệ
       content : Liên hệ với Ruby on Rails Tutorial về sample app tại trang liên hệ.
-      
+  
+  users:
+    new:
+      title_sign: "Đăng ký "
+      content: "Đây sẽ là một trang đăng ký cho người dùng mới."
