@@ -1,5 +1,7 @@
 vi:
   page_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  welcome_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu!"
+  user_is_not_exist: "Tài khoản không tồn tại"
   layouts:
     application:
       title_page: "Ứng dụng mẫu"
@@ -40,3 +42,5 @@ vi:
     new:
       title_sign: "Đăng ký "
       content: "Đây sẽ là một trang đăng ký cho người dùng mới."
+      confirm: "Xác nhận"
+      create_account: "Tạo tài khoản của tôi"
