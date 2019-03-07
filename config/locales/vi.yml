@@ -21,6 +21,7 @@ vi:
     new:
       log_in: "Đăng nhập"
       sign_up_now: "Đăng kí ngay!"
+      remember_me: "Ghi nhớ trên máy tính này"
   static_pages:
     help:
       title: "Trợ giúp"
