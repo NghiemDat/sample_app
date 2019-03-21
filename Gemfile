@@ -20,6 +20,8 @@ gem "sqlite3"
 gem "faker"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
+gem "carrierwave", "1.2.2"
+gem "mini_magick", "4.7.0"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
@@ -36,6 +38,11 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "chromedriver-helper"
   gem "selenium-webdriver"
+end
+
+group :production do
+  gem "pg", "0.20.0"
+  gem "fog", "1.42"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

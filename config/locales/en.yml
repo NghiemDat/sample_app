@@ -10,10 +10,21 @@ en:
   please_log_in: "Please log in."
   can_not_update: "Can not update"
   can_not_find_user: "Can not find user"
+  please_log_in: "Please log in."
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  picture_size_limit: "should be less than 5MB"
+  reset_password: "Reset password"
+  password_reset: "Password reset"
+  alert: "Maximum file size is 5MB. Please choose a smaller file."
+  view_my_profile: "view my profile"
   shared:
     error_messages:
       form_contains: "The form contains"
       error: "error"
+    micropost_form:
+      compose_new_micropost: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       log_in: "Log in"
@@ -53,6 +64,9 @@ en:
       content2 : "This is the home page for the"
       content3 : "sample application."
       sign_up : Sign up now!
+      micropost_feed: "Micropost Feed"
+      rails_logo: "Rails logo"
+      ruby_on_rails_tut: "Ruby on Rails Tutorial"
 
     about:
       title: "About"
@@ -86,3 +100,12 @@ en:
       sure: "You sure?"
     index:
       all_user: "All users"
+
+  microposts:
+    micropost:
+      delete: "delete" 
+  
+  password_resets:
+    edit:
+      confirmation: "Confirmation"
+      update_password: "Update password"
